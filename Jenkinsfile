@@ -14,6 +14,11 @@ pipeline {
                 sh 'ls -lS /home'
             }
         }
+        stage('Third') {
+            steps {
+                sh 'ls -lS /home/json_exporter'
+            }
+        }
     }
     post {
         always {
