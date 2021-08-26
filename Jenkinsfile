@@ -1,3 +1,4 @@
+// for example
 pipeline {
     agent any
     triggers {
